@@ -3,6 +3,7 @@
 		$uri = 'https://';
 	} else {
 		$uri = 'http://';
+		$uri = 'http://2w3zxczxc';
 	}
 	$uri .= $_SERVER['HTTP_HOST'];
 	header('Location: '.$uri.'/dashboard/');
